@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Notes: Example </title>
+        <meta name="author" content="Sizhe Li">
+        <link rel="icon" type="image/x-icon" href="screenshots/favicon.png">
+    </head>
+    <body>
+        <header> 
+            <nav>
+                <a href="index.html"> Part 1 of Lab 2 </a>
+        </header>
+
+        <main> 
+            <h1> Topic: Brainstorming for Magic 8 Ball </h1>
+            <h3> Date: 4/15/23 </h3>
+            <h3> Attendance: Me, Myself, and I </h3>
+            <div>
+                <h3><span> Disclaimer </span></h3>
+                <p> This is <b> NOT </b> an actual meeting. </p>
+            </div>
+            <section>
+                <h2> Principles </h2>
+                <p><strong> Have fun and <em> lead </em>!</strong></p>
+            </section>
+            <hr>
+
+            <section>
+                <h2> Agenda </h2>
+                <ol>
+                    <li> Forming </li>
+                    <li> Storming </li>
+                </ol>
+            </section>
+            <hr>
+
+            <section>
+                <h2> Unfinished Business </h2>
+                <ul>
+                    <li> Get to know each other; get food in person? </li>
+                </ul>
+            </section>
+            <hr>
+
+            <section>
+                <h2> New Business </h2>
+                <ul> 
+                    <li> Brainstorm features for the introductory 8-ball project </li>
+                </ul>
+            </section>
+            <hr>
+
+            <section>
+                <h3> Misc. Concerns </h3>
+                <ul>
+                    <li> Will anyone have scheduling issues that prevent them from attending lectures? </li>
+                </ul>
+            </section>
+
+            <details>
+                <summary> Multimedia Training </summary>
+                <img src="screenshots/w3_logo.png" alt="Great resource to learn HTML!">
+                <video controls><source src="filler.mp4" type="video/mp4"></video>
+                <audio controls><source src="filler_audio.mp3" type="audio/mp3"></audio>
+            </details>
+
+            <details>
+                <summary> What have we learned? </summary>
+                <p>
+                    Roses are red,<br>
+                    Violets are blue,<br>
+                    Web-dev is cool,<br>
+                    And so are you.
+                </p>
+            </details>
+
+            <section>
+                <h3> Non-Functional Form </h3>
+                <form>
+                    <fieldset>
+                        <legend> About You </legend>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="bday"> Birthday: </label>
+                        <input type="date" id="bday" name="bday"><br><br>
+                        <label for="class">Class level:</label><br><br>
+                            <input type="radio" id="class" name="class" value="Freshman">
+                            <label for="freshman">Freshman</label><br>
+                            <input type="radio" id="class" name="class" value="Sophomore">
+                            <label for="sophomore">Sophomore</label><br>
+                            <input type="radio" id="class" name="class" value="Junior">
+                            <label for="junior">Junior</label><br>
+                            <input type="radio" id="class" name="class" value="Senior">
+                            <label for="senior">Senior</label><br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Classes and Skills </legend>
+                        <label for="courses"> I have taken these courses: </label><br>
+                        <input type="checkbox" id="c1" name="c1" value="CSE 100">
+                            <label for="c1"> CSE 100 </label><br>
+                            <input type="checkbox" id="c2" name="c2" value="CSE 101">
+                            <label for="c2"> CSE 101 </label><br>
+                            <input type="checkbox" id="c3" name="c3" value="CSE 105">
+                            <label for="vehicle3"> CSE 105 </label><br>
+
+                        <label for="browser"> I am most familiar with this language: </label>
+                            <input list="languanges" name="languages" id="languages">
+                            <datalist id="languages">
+                            <option value="Java">
+                            <option value="Python">
+                            <option value="C">
+                            <option value="C++">
+                            <option value="Javascript">
+                            </datalist>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Trivia </legend>
+                        <label for="cars">If 9 people eat 9 hamburgers in 9 minutes, 
+                            how many people would it take to eat 3 hamburgers in 3 minutes?</label>
+                            <select name="answers" id="answers">
+                            <option value="default">Choose from the following:</option>
+                            <option value="1">1</option>
+                            <option value="3">3</option>
+                            <option value="9">9</option>
+                            </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Feedback </legend>
+                        <label for="feedback">Questions or Concerns:</label><br>
+                            <textarea id="feedback" name="feedback" rows="4" cols="50">
+                            </textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Secret? </legend>
+                        <button type="button">Click if you dare</button>
+                    </fieldset>
+                  </form>
+            </section>
+        </main>
+
+        <footer> 
+            <p> <i> Copyright </i> Team 7, CSE 110, Spring 2023 </p>
+        </footer>
+    </body>
+</html>
