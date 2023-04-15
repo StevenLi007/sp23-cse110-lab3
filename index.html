@@ -9,6 +9,7 @@
         <header> 
             <nav>
                 <a href="index.html"> Part 1 of Lab 2 </a>
+            </nav>
         </header>
 
         <main> 
@@ -85,21 +86,21 @@
                         <input type="text" id="lname" name="lname"><br><br>
                         <label for="bday"> Birthday: </label>
                         <input type="date" id="bday" name="bday"><br><br>
-                        <label for="class">Class level:</label><br><br>
-                            <input type="radio" id="class" name="class" value="Freshman">
-                            <label for="freshman">Freshman</label><br>
-                            <input type="radio" id="class" name="class" value="Sophomore">
-                            <label for="sophomore">Sophomore</label><br>
-                            <input type="radio" id="class" name="class" value="Junior">
-                            <label for="junior">Junior</label><br>
-                            <input type="radio" id="class" name="class" value="Senior">
-                            <label for="senior">Senior</label><br><br>
+                        <label>Class level:</label><br><br>
+                            <input type="radio" id="fr" name="class" value="Freshman">
+                            <label for="fr">Freshman</label><br>
+                            <input type="radio" id="so" name="class" value="Sophomore">
+                            <label for="so">Sophomore</label><br>
+                            <input type="radio" id="jn" name="class" value="Junior">
+                            <label for="ju">Junior</label><br>
+                            <input type="radio" id="sn" name="class" value="Senior">
+                            <label for="sn">Senior</label><br><br>
                         <input type="submit" value="Submit">
                     </fieldset>
 
                     <fieldset>
                         <legend> Classes and Skills </legend>
-                        <label for="courses"> I have taken these courses: </label><br>
+                        <label> I have taken these courses: </label><br>
                         <input type="checkbox" id="c1" name="c1" value="CSE 100">
                             <label for="c1"> CSE 100 </label><br>
                             <input type="checkbox" id="c2" name="c2" value="CSE 101">
@@ -107,8 +108,8 @@
                             <input type="checkbox" id="c3" name="c3" value="CSE 105">
                             <label for="vehicle3"> CSE 105 </label><br>
 
-                        <label for="browser"> I am most familiar with this language: </label>
-                            <input list="languanges" name="languages" id="languages">
+                        <label> I am most familiar with this language: </label>
+                            <input list="languanges" name="language" id="language">
                             <datalist id="languages">
                             <option value="Java">
                             <option value="Python">
@@ -120,7 +121,7 @@
 
                     <fieldset>
                         <legend> Trivia </legend>
-                        <label for="cars">If 9 people eat 9 hamburgers in 9 minutes, 
+                        <label>If 9 people eat 9 hamburgers in 9 minutes, 
                             how many people would it take to eat 3 hamburgers in 3 minutes?</label>
                             <select name="answers" id="answers">
                             <option value="default">Choose from the following:</option>
