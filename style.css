@@ -1,0 +1,133 @@
+/* text will be inline */
+
+/* For text */
+.box1 {
+    background-color: aquamarine;
+    margin-top: 25 px;
+    margin-bottom: 18.75 pt;
+    margin-left: 1.5625 pc;
+    margin-right: 25 px;
+    padding-top: 1 vh;
+    padding-bottom: 1h;
+    padding-left: 1 vw;
+    padding-right: 1 vw;
+    border-style: solid;
+    border-color: rgb(0, 0, 255);
+    border-width: 1 vmin;
+    border-radius: 1 vmin;
+    display: inline-block;
+    height: 500 px;
+    width: 500 px;
+    max-width: 1000 px;
+    min-width: 250 px;
+    position: static;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+/* For forms */
+.box2 {
+    @media (aspect-ratio: 1/1) {
+        div {
+            background-color: #78a4eb;
+        }
+    }
+    /* background-color: #77b3d3; */
+    margin-top: 25 px;
+    margin-bottom: 18.75 pt;
+    margin-left: 1.5625 pc;
+    margin-right: 25 px;
+    padding-top: 1 vh;
+    padding-bottom: 1h;
+    padding-left: 1 vw;
+    padding-right: 1 vw;
+    border-style: solid;
+    border-color: hsl(115, 70%, 65%);
+    border-width: 100 vmin;
+    border-radius: 10 vmin;
+    display: block;
+    height: 500 px;
+    width: 500 px;
+    max-width: 1000 px;
+    min-width: 250 px;
+    display: grid;
+    justify-self: start;
+    grid-template: none;
+}
+
+/* For button */
+.box3 {
+    background-color: rgb(217, 22, 22);
+    margin-top: 25 px;
+    margin-bottom: 18.75 pt;
+    margin-left: 1.5625 pc;
+    margin-right: 25 px;
+    padding-top: 1 vh;
+    padding-bottom: 1h;
+    padding-left: 1 vw;
+    padding-right: 1 vw;
+    border-style: solid;
+    border-color: rgb(217, 167, 19);
+    border-width: 1 vmin;
+    border-radius: 1 vmin;
+    display: block;
+    position: sticky;
+}
+
+.box3:hover {
+    background-color: rgb(219, 136, 136);
+}
+
+.box3:active {
+    box-shadow: 2px 2px 5px #d86a2e;
+}
+
+h2#heading {
+    color: rgb(166, 49, 168);
+}
+
+*.warning {
+    color:rgb(217, 22, 22)
+}
+
+em {
+    color: #fcba03;
+}
+
+a[href*="index"]
+{
+  color: green;
+}
+
+.box1, .box2, .box3 {
+    font-family: 'Ysabeau', sans-serif;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+h3 > span {
+    background-color: darkcyan;
+}
+
+h2 ~ p {
+    background-color: blanchedalmond;
+}
+
+summary + p {
+    font-weight: bold;
+}
+
+/* main ~ h1[class="box1"] {
+    color: greenyellow;
+} */
+
+.a {
+    background-color: gold;
+}
+
+ul > li[class="a"] {
+    color: purple;
+}
