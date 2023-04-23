@@ -4,6 +4,10 @@
         <title>Meeting Notes: Example </title>
         <meta name="author" content="Sizhe Li">
         <link rel="icon" type="image/x-icon" href="screenshots/favicon.png">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+        </style>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
         <header> 
@@ -13,21 +17,21 @@
         </header>
 
         <main> 
-            <h1> Topic: Brainstorming for Magic 8 Ball </h1>
-            <h3> Date: 4/15/23 </h3>
-            <h3> Attendance: Me, Myself, and I </h3>
+            <h1 class="box1"> Topic: Brainstorming for Magic 8 Ball </h1>
+            <h3 class="box1"> Date: 4/15/23 </h3>
+            <h3 class="box1"> Attendance: Me, Myself, and I </h3>
             <div>
                 <h3><span> Disclaimer </span></h3>
                 <p> This is <b> NOT </b> an actual meeting. </p>
             </div>
             <section>
-                <h2> Principles </h2>
+                <h2 id="heading"> Principles </h2>
                 <p><strong> Have fun and <em> lead </em>!</strong></p>
             </section>
             <hr>
 
             <section>
-                <h2> Agenda </h2>
+                <h2 id="heading"> Agenda </h2>
                 <ol>
                     <li> Forming </li>
                     <li> Storming </li>
@@ -36,15 +40,19 @@
             <hr>
 
             <section>
-                <h2> Unfinished Business </h2>
+                <h2 id="heading"> Unfinished Business </h2>
                 <ul>
-                    <li> Get to know each other; get food in person? </li>
+                    <li class="a"> Get to know each other; get food in person? </li>
+                        <ul>
+                            <li> Boba? </li>
+                            <li> Sushi? </li>
+                        </ul>
                 </ul>
             </section>
             <hr>
 
             <section>
-                <h2> New Business </h2>
+                <h2 id="heading"> New Business </h2>
                 <ul> 
                     <li> Brainstorm features for the introductory 8-ball project </li>
                 </ul>
@@ -52,9 +60,9 @@
             <hr>
 
             <section>
-                <h3> Misc. Concerns </h3>
+                <h2 id="heading"> Misc. Concerns </h2>
                 <ul>
-                    <li> Will anyone have scheduling issues that prevent them from attending lectures? </li>
+                    <li> Will anyone have <span class="warning"> scheduling issues </span> that prevent them from attending lectures? </li>
                 </ul>
             </section>
 
@@ -77,8 +85,8 @@
 
             <section>
                 <h3> Non-Functional Form </h3>
-                <form>
-                    <fieldset>
+                <form class="box2">
+                    <fieldset class="box2">
                         <legend> About You </legend>
                         <label for="fname">First name:</label>
                         <input type="text" id="fname" name="fname"><br><br>
@@ -98,7 +106,7 @@
                         <input type="submit" value="Submit">
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="box2">
                         <legend> Classes and Skills </legend>
                         <label> I have taken these courses: </label><br>
                         <input type="checkbox" id="c1" name="c1" value="CSE 100">
@@ -119,7 +127,7 @@
                             </datalist>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="box2">
                         <legend> Trivia </legend>
                         <label>If 9 people eat 9 hamburgers in 9 minutes, 
                             how many people would it take to eat 3 hamburgers in 3 minutes?</label>
@@ -131,16 +139,16 @@
                             </select>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="box2">
                         <legend> Feedback </legend>
                         <label for="feedback">Questions or Concerns:</label><br>
                             <textarea id="feedback" name="feedback" rows="4" cols="50">
                             </textarea>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="box2">
                         <legend> Secret? </legend>
-                        <button type="button">Click if you dare</button>
+                        <button type="button" class="box3">Click if you dare</button>
                     </fieldset>
                   </form>
             </section>
